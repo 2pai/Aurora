@@ -11,7 +11,7 @@ export default class HelloWorld extends React.Component {
 
     render() {
         return (
-            <h1 className="container">Hello <span className="name">{ this.props.name }</span></h1>
+            <h1 className="container">Hello, <span className="name">{ this.props.name }</span></h1>
         )
     }
 }
